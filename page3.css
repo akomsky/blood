@@ -1,0 +1,59 @@
+body{
+  background: url(images/red-02.jpg);
+  font-family: "Lato", Arial, Sans-serif;
+  color: white;
+
+}
+h1{
+  text-align: center;
+}
+
+.navbar {
+	padding: 0;
+	margin-bottom: 0;
+	border: none;
+	text-transform: uppercase;
+	background-color: rgba(0, 0, 20, .7);
+	background-image: none;
+}
+
+
+ul{
+  max-width: 1400px;
+  margin: 20px auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+
+}
+
+
+li{
+  border: 1px none red;
+  display: inline-block;
+  padding: 10px 20px 20px 20px;
+  border-spacing: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+
+.detail > .pic{
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.name{
+  font-weight: bolder;
+  font-style: italic;
+  color: black;
+  font-size: 25px;
+}
