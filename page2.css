@@ -9,6 +9,8 @@
 }
 
 h1{
+	    /*width: 700px;
+    height: 80px;*/
 	background-color: #d3102a;
 	color: white;
 	font-size: 50px;
@@ -118,32 +120,38 @@ a:visited{
 @media (max-width: 400px){
 	h1{
 		margin: -195px 10px 30px 290px;
-		width: 700px;
+		width: 500px;
 	}
 	#icon{
 		margin: 80px 10px 30px 50px;
 	}
 	.p1{
-		margin: 300px 50px 50px 80px;
+		margin: 180px 50px 50px 60px;
 	}	
 	#photos{
 		margin: 250px 10px 10px 300px;
-		position: absolute;
-		top: 170px;
-	}
+		border-width: 500px;
+		height: 400px;
+/*		position: absolute;
+*//*		top: 170px;
+*/	}
 	.list{
 		width: 600px;
+		clear: both;
 
 	}
 	.tips{
-
+		width:200px;
+		margin: 630px 20px 50px 300px;
 	}
 	.photo{
 		height: 250px;
-		width: 260px;
+		width: 200px;
+		display: inline;
 	}
 	.requirements{
-
+		width:200px;
+		margin: 630px 50px 20px 650px;
 	}
 }
 /*@media(min-width: 768px) and (max-width: 979px){
