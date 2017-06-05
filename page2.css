@@ -23,10 +23,11 @@ h1{
 	border-color: #770817 red; 
 	text-align: center;
 	margin: 15px 10px 30px 20px;
-	padding: 37px 20px;
+	padding: 30px 20px;
 	float: left;
 	position: relative;
 	color:white;
+	width: 700px;
 	text-shadow: 3px 3px red;
 }
 body{
