@@ -1,6 +1,4 @@
-head-img{
-	/*width:500px;*/
-}
+
 .navbar {
 	padding: 0;
 	margin-bottom: 0;
@@ -12,16 +10,13 @@ head-img{
 .margin{
 	top:90px;
 }
-.image-1{
-/*	position: relative;
-*/
-}
+
 .wrapper {
 	text-align: center;
 	margin: 90px auto;
 }
 
-.button {
+a {
 	background-color: black;
 	color: white;
 
